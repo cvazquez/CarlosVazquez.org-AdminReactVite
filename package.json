@@ -1,7 +1,7 @@
 {
   "name": "carlosvazquez-org-adminreactvite",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,8 +16,10 @@
     "@mui/icons-material": "^6.3.0",
     "@mui/material": "^6.3.0",
     "@mui/styles": "^6.3.0",
+    "@reduxjs/toolkit": "^2.5.0",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
