@@ -1,26 +1,29 @@
 {
-  "name": "CarlosVazquez.org Blog Admin",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
-  "scripts": {
-    "dev": "nodemon --exec vite",
-    "build": "tsc -b && vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
-  "devDependencies": {
-    "@types/node": "^26.2.0",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "@vitejs/plugin-react": "^6.0.5",
-    "nodemon": "^3.1.14",
-    "oxlint": "^1.79.0",
-    "typescript": "~7.0.2",
-    "vite": "^8.2.1"
-  }
+    "name": "CarlosVazquez.org Blog Admin",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon --exec vite",
+        "build": "tsc -b && vite build",
+        "lint": "oxlint",
+        "preview": "vite preview",
+        "fmt": "oxfmt",
+        "fmt:check": "oxfmt --check"
+    },
+    "dependencies": {
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8"
+    },
+    "devDependencies": {
+        "@types/node": "^26.2.0",
+        "@types/react": "^19.2.18",
+        "@types/react-dom": "^19.2.4",
+        "@vitejs/plugin-react": "^6.0.5",
+        "nodemon": "^3.1.14",
+        "oxfmt": "^0.64.0",
+        "oxlint": "^1.79.0",
+        "typescript": "~7.0.2",
+        "vite": "^8.2.1"
+    }
 }

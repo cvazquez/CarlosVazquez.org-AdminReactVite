@@ -1,9 +1,5 @@
-import './App.css'
+import "./App.css";
 
-const App = () => (
-  <section id="main">
-    HELLO ADMIN WORLD
-  </section>
-);
+const App = () => <section id="main">HELLO ADMIN WORLD</section>;
 
-export default App
+export default App;
