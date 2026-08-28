@@ -9,7 +9,9 @@
         "lint": "oxlint",
         "preview": "vite preview",
         "fmt": "oxfmt",
-        "fmt:check": "oxfmt --check"
+        "fmt:check": "oxfmt --check",
+        "test": "vitest",
+        "watch": "vitest watch"
     },
     "dependencies": {
         "@emotion/react": "^11.14.0",
@@ -24,10 +26,12 @@
         "@types/react": "^19.2.18",
         "@types/react-dom": "^19.2.4",
         "@vitejs/plugin-react": "^6.0.5",
+        "@vitest/coverage-v8": "^4.1.11",
         "nodemon": "^3.1.14",
         "oxfmt": "^0.64.0",
         "oxlint": "^1.79.0",
         "typescript": "~7.0.2",
-        "vite": "^8.2.1"
+        "vite": "^8.2.1",
+        "vitest": "^4.1.11"
     }
 }
